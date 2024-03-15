@@ -1,0 +1,10 @@
+{
+  "name": "@1sl4nds/moses",
+  "version": "0.0.0",
+  "description": "TBD",
+  "license": "AGPL-3.0",
+  "workspaces": [
+    "internal/docs",
+    "internal/web"
+  ]
+}
