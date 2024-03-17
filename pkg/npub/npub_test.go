@@ -3,7 +3,7 @@ package npub_test
 import (
 	"testing"
 
-	"github.com/1sl4nds/moses/npub"
+	"github.com/1sl4nds/moses/pkg/npub"
 )
 
 func Test_Decode(t *testing.T) {

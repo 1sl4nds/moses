@@ -1,6 +1,6 @@
 package noticemessage
 
-import "github.com/1sl4nds/moses/message"
+import "github.com/1sl4nds/moses/pkg/message"
 
 const Type = "NOTICE"
 

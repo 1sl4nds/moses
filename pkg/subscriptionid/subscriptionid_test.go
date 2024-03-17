@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/1sl4nds/moses/subscriptionid"
+	"github.com/1sl4nds/moses/pkg/subscriptionid"
 )
 
 func Test_New(t *testing.T) {

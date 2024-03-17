@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/1sl4nds/moses/message"
+	"github.com/1sl4nds/moses/pkg/message"
 )
 
 func Test_New(t *testing.T) {

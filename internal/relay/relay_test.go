@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/1sl4nds/moses/client"
-	"github.com/1sl4nds/moses/message"
-	"github.com/1sl4nds/moses/message/eosemessage"
-	"github.com/1sl4nds/moses/message/okmessage"
-	"github.com/1sl4nds/moses/relay"
+	"github.com/1sl4nds/moses/internal/client"
+	"github.com/1sl4nds/moses/internal/relay"
+	"github.com/1sl4nds/moses/pkg/message"
+	"github.com/1sl4nds/moses/pkg/message/eosemessage"
+	"github.com/1sl4nds/moses/pkg/message/okmessage"
 )
 
 func Test_New(t *testing.T) {

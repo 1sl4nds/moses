@@ -1,7 +1,7 @@
 package requestmessage
 
 import (
-	"github.com/1sl4nds/moses/message"
+	"github.com/1sl4nds/moses/pkg/message"
 )
 
 const Type = "REQ"

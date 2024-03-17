@@ -2,7 +2,7 @@ package categorizedpeoplelistevent
 
 import (
 	"github.com/1sl4nds/moses/pkg/event"
-	"github.com/1sl4nds/moses/tag"
+	"github.com/1sl4nds/moses/pkg/tag"
 )
 
 // Kind for managing categorized people list

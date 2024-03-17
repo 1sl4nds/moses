@@ -1,6 +1,6 @@
 package closemessage
 
-import "github.com/1sl4nds/moses/message"
+import "github.com/1sl4nds/moses/pkg/message"
 
 // Type TBD
 const Type = "CLOSE"

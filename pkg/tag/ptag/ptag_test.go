@@ -1,11 +1,11 @@
-package petnametag_test
+package ptag_test
 
 import (
 	"reflect"
 	"testing"
 
-	"github.com/1sl4nds/moses/tag"
-	"github.com/1sl4nds/moses/tag/petnametag"
+	"github.com/1sl4nds/moses/pkg/tag"
+	"github.com/1sl4nds/moses/pkg/tag/ptag"
 )
 
 func Test_New(t *testing.T) {
@@ -26,7 +26,7 @@ func Test_New(t *testing.T) {
 				relayURL:  "relay-url",
 				petname:   "petname",
 			},
-			want: tag.Tag{petnametag.Type},
+			want: tag.Tag{ptag.Type},
 		},
 	}
 	for _, tt := range tests {
@@ -34,7 +34,7 @@ func Test_New(t *testing.T) {
 			tt.want.Push(tt.args.pubKeyStr)
 			tt.want.Push(tt.args.relayURL)
 			tt.want.Push(tt.args.petname)
-			got := petnametag.New(tt.args.pubKeyStr, tt.args.relayURL, tt.args.petname)
+			got := ptag.New(tt.args.pubKeyStr, tt.args.relayURL, tt.args.petname)
 			if !reflect.DeepEqual(tt.want, got) {
 				t.Errorf("wanted %v, got %v", tt.want, got)
 			}

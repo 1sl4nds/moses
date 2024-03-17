@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/1sl4nds/moses/tag"
-	"github.com/1sl4nds/moses/tag/amounttag"
+	"github.com/1sl4nds/moses/pkg/tag"
+	"github.com/1sl4nds/moses/pkg/tag/amounttag"
 )
 
 func Test_New(t *testing.T) {

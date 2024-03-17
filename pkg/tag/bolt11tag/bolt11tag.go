@@ -1,6 +1,6 @@
 package bolt11tag
 
-import "github.com/1sl4nds/moses/tag"
+import "github.com/1sl4nds/moses/pkg/tag"
 
 const Type = "bolt11"
 

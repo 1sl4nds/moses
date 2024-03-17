@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/1sl4nds/moses/pkg/client"
+	"github.com/1sl4nds/moses/internal/client"
+	"github.com/1sl4nds/moses/internal/relay"
 	"github.com/1sl4nds/moses/pkg/message"
 	"github.com/1sl4nds/moses/pkg/message/closemessage"
 	"github.com/1sl4nds/moses/pkg/message/requestmessage"
-	"github.com/1sl4nds/moses/pkg/relay"
 	"github.com/1sl4nds/moses/pkg/subscriptionid"
 )
 

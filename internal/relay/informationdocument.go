@@ -1,6 +1,6 @@
 package relay
 
-import "github.com/1sl4nds/moses/tag"
+import "github.com/1sl4nds/moses/pkg/tag"
 
 // InformationDocument contains information about a Nostr relay.
 type InformationDocument struct {

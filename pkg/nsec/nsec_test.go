@@ -3,7 +3,7 @@ package nsec_test
 import (
 	"testing"
 
-	"github.com/1sl4nds/moses/nsec"
+	"github.com/1sl4nds/moses/pkg/nsec"
 )
 
 func Test_Decode(t *testing.T) {
